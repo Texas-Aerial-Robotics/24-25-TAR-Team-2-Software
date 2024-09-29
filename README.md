@@ -32,6 +32,8 @@ This sets WSL 2 as the default version for any new Linux distributions.
 
   Now that WSL is enabled, you can install Ubuntu 20.04 using the following command:
   
+  *NOTE: DO NOT FORGET YOUR USER NAME AND PASSWORD. WRITE IT DOWN
+  
       wsl --install -d Ubuntu-20.04
 
   This command will: Download and install Ubuntu 20.04 on your WSL instance and set it up as your default WSL distribution.
