@@ -93,6 +93,59 @@ It will also guide you through Building and Running your ROS 2 Workspace
 
     https://docs.px4.io/main/en/ros2/user_guide#install-px4
 
+## Solution for Cmake version Error during Micro-XRCE-DDS-Agent Build
+A common issue I encountered while buildig the Micro-XRCE-DDS-Agent was a conflict in the Cmake version I was running (3.13.3) and the one required by "fastdds" (>= 3.20)
+to solve this issue, complete the following steps:
+### 1. Download the latest CMake Version:
+
+        wget https://github.com/Kitware/CMake/releases/download/v3.27.6/cmake-3.27.6-linux-x86_64.sh
+
+### 2. Make the Script Executable after downloading
+        chmod +x cmake-3.27.6-linux-x86_64.sh
+
+### 3. Create a directory for the installation
+        mkdir -p $HOME/cmake-3.27.6
+
+### 4. Install CMake into the New Directory 
+This Runs the installer script and specifies the directory you created as the installation prefix
+
+        ./cmake-3.27.6-linux-x86_64.sh --skip-license --prefix=$HOME/cmake-3.27.6
+        
+This installs CMake into the $HOME/cmake-3.27.6 directory.
+
+### 5. Update the PATH Enironment Variable: 
+You will now add this directory to you PATH so that your system recognizes the new CMake version. Note, this only adds it temporarily.
+
+        export PATH=$HOME/cmake-3.27.6/bin:$PATH
+
+To make this change permanent, append the line to your ~/.bashrc or ~/.profile file:
+
+        echo 'export PATH=$HOME/cmake-3.27.6/bin:$PATH' >> ~/.bashrc
+        
+
+### 6. Verify the CMake Version
+Verify that the new CMake version is installed and in use by running:
+
+        cmake --version
+
+### 7. Clear cache of old CMake version
+        cd ~/Micro-XRCE-DDS-Agent/build
+        rm -rf *
+
+### 8. Reconfigure and Build
+After cleaning the directory, try rebuilding the project again using the newly installed CMake:
+       
+        cmake ..
+        make
+
+### 9. The end!
+If all went well, then the Micro-XRCE-DDS-Agent should have completed the build process (this will likley take awhile)
+
+
+
+
+
+
 
 
 
