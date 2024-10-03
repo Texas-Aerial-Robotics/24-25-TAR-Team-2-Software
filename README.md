@@ -139,7 +139,7 @@ After cleaning the directory, try rebuilding the project again using the newly i
         make
 
 ### 9. The end!
-If all went well, then the Micro-XRCE-DDS-Agent should have completed the build process (this will likley take awhile)
+If all went well, then the Micro-XRCE-DDS-Agent should have completed the build process (this will likely take awhile)
 
 
 
