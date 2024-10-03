@@ -94,7 +94,7 @@ It will also guide you through Building and Running your ROS 2 Workspace
     https://docs.px4.io/main/en/ros2/user_guide#install-px4
 
 ## Solution for Cmake version Error during Micro-XRCE-DDS-Agent Build
-A common issue I encountered while buildig the Micro-XRCE-DDS-Agent was a conflict in the Cmake version I was running (3.13.3) and the one required by "fastdds" (>= 3.20)
+A common issue I encountered while building the Micro-XRCE-DDS-Agent was a conflict in the Cmake version I was running (3.13.3) and the one required by "fastdds" (>= 3.20)
 to solve this issue, complete the following steps:
 ### 1. Download the latest CMake Version:
 
