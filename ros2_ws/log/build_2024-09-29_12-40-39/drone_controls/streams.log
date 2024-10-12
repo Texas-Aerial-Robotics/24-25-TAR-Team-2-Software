@@ -1,0 +1,40 @@
+[2.306s] Invoking command in '/home/joshua_caratao/ros2_ws/src/drone_controls': PYTHONPATH=/home/joshua_caratao/ros2_ws/build/drone_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joshua_caratao/ros2_ws/install/drone_controls/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_controls build --build-base /home/joshua_caratao/ros2_ws/build/drone_controls/build install --record /home/joshua_caratao/ros2_ws/build/drone_controls/install.log --install-scripts $base/lib/drone_controls --single-version-externally-managed install_data
+[2.678s] /home/joshua_caratao/.local/lib/python3.8/site-packages/setuptools/dist.py:452: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.678s] !!
+[2.679s] 
+[2.679s]         ********************************************************************************
+[2.679s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.679s]         versions. Please use the underscore name 'script_dir' instead.
+[2.680s] 
+[2.680s]         This deprecation is overdue, please update your project and remove deprecated
+[2.680s]         calls to avoid build errors in the future.
+[2.680s] 
+[2.680s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.681s]         ********************************************************************************
+[2.681s] 
+[2.681s] !!
+[2.681s]   opt = self.warn_dash_deprecation(opt, section)
+[2.722s] /home/joshua_caratao/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.722s]   warnings.warn(msg)
+[3.033s] running egg_info
+[3.085s] writing ../../build/drone_controls/drone_controls.egg-info/PKG-INFO
+[3.087s] writing dependency_links to ../../build/drone_controls/drone_controls.egg-info/dependency_links.txt
+[3.088s] writing entry points to ../../build/drone_controls/drone_controls.egg-info/entry_points.txt
+[3.089s] writing requirements to ../../build/drone_controls/drone_controls.egg-info/requires.txt
+[3.090s] writing top-level names to ../../build/drone_controls/drone_controls.egg-info/top_level.txt
+[3.444s] reading manifest file '../../build/drone_controls/drone_controls.egg-info/SOURCES.txt'
+[3.449s] writing manifest file '../../build/drone_controls/drone_controls.egg-info/SOURCES.txt'
+[3.450s] running build
+[3.451s] running build_py
+[3.451s] copying drone_controls/take_off_sim.py -> /home/joshua_caratao/ros2_ws/build/drone_controls/build/lib/drone_controls
+[3.455s] copying drone_controls/__init__.py -> /home/joshua_caratao/ros2_ws/build/drone_controls/build/lib/drone_controls
+[3.456s] running install
+[3.467s] running install_lib
+[3.505s] running install_data
+[3.506s] running install_egg_info
+[3.553s] removing '/home/joshua_caratao/ros2_ws/install/drone_controls/lib/python3.8/site-packages/drone_controls-0.0.0-py3.8.egg-info' (and everything under it)
+[3.555s] Copying ../../build/drone_controls/drone_controls.egg-info to /home/joshua_caratao/ros2_ws/install/drone_controls/lib/python3.8/site-packages/drone_controls-0.0.0-py3.8.egg-info
+[3.560s] running install_scripts
+[3.672s] Installing take_off_sim script to /home/joshua_caratao/ros2_ws/install/drone_controls/lib/drone_controls
+[3.677s] writing list of installed files to '/home/joshua_caratao/ros2_ws/build/drone_controls/install.log'
+[3.747s] Invoked command in '/home/joshua_caratao/ros2_ws/src/drone_controls' returned '0': PYTHONPATH=/home/joshua_caratao/ros2_ws/build/drone_controls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joshua_caratao/ros2_ws/install/drone_controls/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_controls build --build-base /home/joshua_caratao/ros2_ws/build/drone_controls/build install --record /home/joshua_caratao/ros2_ws/build/drone_controls/install.log --install-scripts $base/lib/drone_controls --single-version-externally-managed install_data

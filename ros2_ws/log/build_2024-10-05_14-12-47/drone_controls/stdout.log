@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/drone_controls/drone_controls.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_controls/drone_controls.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_controls/drone_controls.egg-info/entry_points.txt
+writing requirements to ../../build/drone_controls/drone_controls.egg-info/requires.txt
+writing top-level names to ../../build/drone_controls/drone_controls.egg-info/top_level.txt
+reading manifest file '../../build/drone_controls/drone_controls.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_controls/drone_controls.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drone_controls/take_off_sim.py -> /home/joshua_caratao/ros2_ws/build/drone_controls/build/lib/drone_controls
+copying drone_controls/__init__.py -> /home/joshua_caratao/ros2_ws/build/drone_controls/build/lib/drone_controls
+running install
+running install_lib
+copying /home/joshua_caratao/ros2_ws/build/drone_controls/build/lib/drone_controls/take_off_sim.py -> /home/joshua_caratao/ros2_ws/install/drone_controls/lib/python3.8/site-packages/drone_controls
+byte-compiling /home/joshua_caratao/ros2_ws/install/drone_controls/lib/python3.8/site-packages/drone_controls/take_off_sim.py to take_off_sim.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/joshua_caratao/ros2_ws/install/drone_controls/lib/python3.8/site-packages/drone_controls-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/drone_controls/drone_controls.egg-info to /home/joshua_caratao/ros2_ws/install/drone_controls/lib/python3.8/site-packages/drone_controls-0.0.0-py3.8.egg-info
+running install_scripts
+Installing take_off_sim script to /home/joshua_caratao/ros2_ws/install/drone_controls/lib/drone_controls
+writing list of installed files to '/home/joshua_caratao/ros2_ws/build/drone_controls/install.log'

@@ -1,0 +1,146 @@
+[0.187s] Invoking command in '/home/joshua_caratao/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /home/joshua_caratao/cmake-3.27.6/bin/cmake /home/joshua_caratao/ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/joshua_caratao/ros2_ws/install/px4_ros_com
+[0.474s] -- The C compiler identification is GNU 9.4.0
+[1.163s] -- The CXX compiler identification is GNU 9.4.0
+[1.827s] -- Detecting C compiler ABI info
+[2.109s] -- Detecting C compiler ABI info - done
+[2.119s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.120s] -- Detecting C compile features
+[2.120s] -- Detecting C compile features - done
+[2.250s] -- Detecting CXX compiler ABI info
+[2.557s] -- Detecting CXX compiler ABI info - done
+[2.569s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.569s] -- Detecting CXX compile features
+[2.569s] -- Detecting CXX compile features - done
+[2.572s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.576s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[2.576s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.576s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.576s]   the cmake_policy command to set the policy and suppress this warning.
+[2.576s] 
+[2.576s] Call Stack (most recent call first):
+[2.576s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[2.576s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[2.576s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.576s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.576s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.577s]   CMakeLists.txt:19 (find_package)
+[2.577s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.577s] [0m
+[2.599s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.600s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.798s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[2.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.007s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.511s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.076s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.983s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.017s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[9.024s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[9.028s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.098s] -- Found px4_msgs: 2.0.1 (/home/joshua_caratao/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[9.122s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.201s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.376s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.376s] -- Looking for pthread_create in pthreads
+[9.543s] -- Looking for pthread_create in pthreads - not found
+[9.543s] -- Looking for pthread_create in pthread
+[9.714s] -- Looking for pthread_create in pthread - found
+[9.716s] -- Found Threads: TRUE  
+[9.893s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[9.969s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[9.981s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.202s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.208s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.208s] -- Configured cppcheck include dirs: /home/joshua_caratao/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/joshua_caratao/ros2_ws/src/px4_ros_com/include/px4_ros_com>
+[10.208s] -- Configured cppcheck exclude dirs and/or files: 
+[10.214s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.214s] -- Configured cpplint exclude dirs and/or files: 
+[10.216s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.218s] -- Added test 'lint_cmake' to check CMake code style
+[10.220s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.225s] -- Added test 'uncrustify' to check C / C++ code style
+[10.225s] -- Configured uncrustify additional arguments: 
+[10.227s] -- Added test 'xmllint' to check XML markup files
+[10.229s] -- Configuring done (10.0s)
+[10.261s] -- Generating done (0.0s)
+[10.263s] -- Build files have been written to: /home/joshua_caratao/ros2_ws/build/px4_ros_com
+[10.277s] Invoked command in '/home/joshua_caratao/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /home/joshua_caratao/cmake-3.27.6/bin/cmake /home/joshua_caratao/ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/joshua_caratao/ros2_ws/install/px4_ros_com
+[10.278s] Invoking command in '/home/joshua_caratao/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /home/joshua_caratao/cmake-3.27.6/bin/cmake --build /home/joshua_caratao/ros2_ws/build/px4_ros_com -- -j16 -l16
+[10.304s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[10.304s] [ 16%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[10.304s] [ 33%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[10.305s] [ 41%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[10.305s] [ 41%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[10.305s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[15.059s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[15.493s] [ 58%] Built target debug_vect_advertiser
+[15.784s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[16.172s] [ 66%] Built target offboard_control
+[16.209s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[16.578s] [ 75%] Built target offboard_control_srv
+[16.821s] [ 83%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[16.966s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[17.211s] [ 91%] Built target sensor_combined_listener
+[17.342s] [ 91%] Built target vehicle_gps_position_listener
+[17.965s] [100%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[18.286s] [100%] Built target frame_transforms
+[18.292s] Invoked command in '/home/joshua_caratao/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /home/joshua_caratao/cmake-3.27.6/bin/cmake --build /home/joshua_caratao/ros2_ws/build/px4_ros_com -- -j16 -l16
+[18.332s] Invoking command in '/home/joshua_caratao/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /home/joshua_caratao/cmake-3.27.6/bin/cmake --install /home/joshua_caratao/ros2_ws/build/px4_ros_com
+[18.334s] -- Install configuration: ""
+[18.334s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[18.337s] -- Set runtime path of "/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[18.337s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[18.339s] -- Set runtime path of "/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[18.339s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[18.340s] -- Set runtime path of "/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[18.340s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[18.342s] -- Set runtime path of "/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[18.342s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[18.343s] -- Set runtime path of "/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[18.344s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[18.344s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[18.344s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/include/px4_ros_com
+[18.345s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[18.345s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so
+[18.350s] -- Set runtime path of "/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[18.350s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch
+[18.351s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[18.351s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com//test
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com/module_to_import.py
+[18.352s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com/__init__.py
+[18.379s] Listing '/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com'...
+[18.379s] Compiling '/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com/__init__.py'...
+[18.379s] Compiling '/home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com/module_to_import.py'...
+[18.384s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[18.384s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[18.385s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[18.386s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[18.387s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[18.387s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[18.387s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.387s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[18.388s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.388s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[18.388s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[18.388s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[18.388s] -- Installing: /home/joshua_caratao/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[18.391s] Invoked command in '/home/joshua_caratao/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joshua_caratao/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /home/joshua_caratao/cmake-3.27.6/bin/cmake --install /home/joshua_caratao/ros2_ws/build/px4_ros_com

@@ -1,0 +1,2 @@
+[console_scripts]
+take_off_sim = drone_controls.take_off_sim:main
